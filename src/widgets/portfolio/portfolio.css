@@ -1,0 +1,13 @@
+@import "../../styles/variables.css";
+
+.portfolio {
+  background-color: var(--white);
+  width: 100%;
+  min-height: 600px;
+}
+
+.portfolioWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+@import "../../styles/variables.css";
+
+.paragraph {
+  color: var(--dark-gray);
+  font-size: 15px;
+  font-family: Inter;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.paragraphCenter {
+  text-align: center;
+}

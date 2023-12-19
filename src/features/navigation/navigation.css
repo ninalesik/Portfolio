@@ -1,0 +1,24 @@
+@import "../../styles/variables.css";
+
+.navigation {
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 43px;
+  position: fixed;
+  margin-top: 150px;
+  padding: 0 34px;
+}
+.item {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-gray);
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--yellow);
+  }
+}

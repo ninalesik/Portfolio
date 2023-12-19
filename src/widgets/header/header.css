@@ -1,0 +1,7 @@
+@import "../../styles/variables.css";
+
+.header {
+  background-color: var(--white);
+  width: 100%;
+  min-height: 600px;
+}

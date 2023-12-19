@@ -1,0 +1,8 @@
+@import "../../styles/variables.css";
+
+.contacts {
+  background-color: var(--white);
+  width: 100%;
+  min-height: 600px;
+  margin: 20px 0;
+}

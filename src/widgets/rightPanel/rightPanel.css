@@ -1,0 +1,7 @@
+@import "../../styles/variables.css";
+
+.rightPanel {
+  width: 108px;
+  background-color: var(--color-light-gray);
+  min-height: 100vh;
+}

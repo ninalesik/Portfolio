@@ -1,0 +1,12 @@
+@import "../../styles/variables.css";
+
+.portfolioTabs {
+  display: flex;
+}
+.portfolioTab {
+  margin-right: 37px;
+  cursor: pointer;
+  &:hover {
+    color: var(--yellow);
+  }
+}
